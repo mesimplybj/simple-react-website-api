@@ -1,4 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Caching.Memory;
+using simplereactapi.Constants;
+using simplereactapi.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,36 +15,56 @@ namespace simplereactapi.Controllers
     [ApiController]
     public class Portfolio : ControllerBase
     {
-        // GET: api/<Portfolio>
-        [HttpGet]
-        public IEnumerable<string> Get()
+        private readonly IMemoryCache _memoryCache;
+        private WebsiteData _websiteData;
+
+        public Portfolio(IMemoryCache memoryCache)
         {
-            return new string[] { "value1", "value2" };
+            _memoryCache = memoryCache;
+            _websiteData = _memoryCache.Get<WebsiteData>(PortFolioSection.WebsiteData);
         }
 
-        // GET api/<Portfolio>/5
-        [HttpGet("{id}")]
-        public string Get(int id)
+        // GET: api/GetHeroSection
+        [HttpGet("[Action]")]
+        public Herosection GetHeroSection()
         {
-            return "value";
+            return _websiteData.HeroSection;
         }
-
-        // POST api/<Portfolio>
-        [HttpPost]
-        public void Post([FromBody] string value)
+        // GET: api/GetHeroSection
+        [HttpGet("[Action]")]
+        public About GetAbout()
         {
+            return _websiteData.About;
         }
-
-        // PUT api/<Portfolio>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        // GET: api/GetHeroSection
+        [HttpGet("[Action]")]
+        public ServiceSection GetServiceSection()
         {
+            return _websiteData.ServiceSection;
         }
-
-        // DELETE api/<Portfolio>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
+        // GET: api/GetHeroSection
+        [HttpGet("[Action]")]
+        public Counter GetCounterSection()
         {
+            return _websiteData.Counter;
+        }
+        // GET: api/PortfolioSection
+        [HttpGet("[Action]")]
+        public PortfolioSection GetPortfolioSection()
+        {
+            return _websiteData.PortfolioSection;
+        }
+        // GET: api/GetHeroSection
+        [HttpGet("[Action]")]
+        public Testimonial GetTestimonial()
+        {
+            return _websiteData.Testimonial;
+        }
+        // GET: api/GetHeroSection
+        [HttpGet("[Action]")]
+        public BlogSection GetBlogSectionn()
+        {
+            return _websiteData.BlogSection;
         }
     }
 }
