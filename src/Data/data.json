@@ -1,10 +1,10 @@
 {
   "HeroSection": {
-    "Image": "heroBG",
+    "Image": "https://res.cloudinary.com/dsduwgwcd/image/upload/v1645459402/simplt-react-site/hero-bg.jpg",
     "Text": "I am Morgan Freeman"
   },
   "About": {
-    "Image": "aboutImage",
+    "Image": "https://res.cloudinary.com/dsduwgwcd/image/upload/v1645459359/simplt-react-site/testimonial-2.jpg",
     "Name": "Morgan Freeman",
     "Profile": "full stact developer",
     "Email": "contact@example.com",
@@ -69,7 +69,7 @@
     ]
   },
   "Counter": {
-    "BG": "counterBG",
+    "BG": "https://res.cloudinary.com/dsduwgwcd/image/upload/v1645459402/simplt-react-site/counters-bg.jpg",
     "CounterList": [
       {
         "Icon": "bi bi-check",
@@ -98,52 +98,52 @@
     "PortfolioList": [
       {
         "ProjectName": "Lorem impsum dolor",
-        "Image": "portfolio1",
+        "Image": "https://res.cloudinary.com/dsduwgwcd/image/upload/v1645459401/simplt-react-site/work-1.jpg",
         "Tag": "Web Design",
         "Date": "18 Sep. 2018"
       },
       {
         "ProjectName": "Loreda Cuno Nere",
-        "Image": "portfolio2",
+        "Image": "https://res.cloudinary.com/dsduwgwcd/image/upload/v1645459401/simplt-react-site/work-2.jpg",
         "Tag": "Web Design",
         "Date": "18 Sep. 2018"
       },
       {
         "ProjectName": "Mavrito Lana Dere",
-        "Image": "portfolio3",
+        "Image": "https://res.cloudinary.com/dsduwgwcd/image/upload/v1645459401/simplt-react-site/work-3.jpg",
         "Tag": "Web Design",
         "Date": "18 Sep. 2018"
       },
       {
         "ProjectName": "Bindo Laro Cado",
-        "Image": "portfolio4",
+        "Image": "https://res.cloudinary.com/dsduwgwcd/image/upload/v1645459401/simplt-react-site/work-4.jpg",
         "Tag": "Web Design",
         "Date": "18 Sep. 2018"
       },
       {
         "ProjectName": "Studio Lena Mado",
-        "Image": "portfolio5",
+        "Image": "https://res.cloudinary.com/dsduwgwcd/image/upload/v1645459401/simplt-react-site/work-5.jpg",
         "Tag": "Web Design",
         "Date": "18 Sep. 2018"
       },
       {
         "ProjectName": "Studio Big Bang",
-        "Image": "portfolio6",
+        "Image": "https://res.cloudinary.com/dsduwgwcd/image/upload/v1645459401/simplt-react-site/work-6.jpg",
         "Tag": "Web Design",
         "Date": "18 Sep. 2018"
       }
     ]
   },
   "Testimonial": {
-    "BG": "testimonialBG",
+    "BG": "https://res.cloudinary.com/dsduwgwcd/image/upload/v1645459402/simplt-react-site/overlay-bg.jpg",
     "Items": [
       {
-        "Image": "testimonial1",
+        "Image": "https://res.cloudinary.com/dsduwgwcd/image/upload/v1645459400/simplt-react-site/testimonial-4.jpg",
         "Name": "Xavi Alonso",
         "Testimonial": " Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,consectetur adipiscing elit."
       },
       {
-        "Image": "testimonial2",
+        "Image": "https://res.cloudinary.com/dsduwgwcd/image/upload/v1645459359/simplt-react-site/testimonial-2.jpg",
         "Name": "Marta Socrate",
         "Testimonial": " Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,consectetur adipiscing elit."
       }
@@ -153,7 +153,7 @@
     "SubTitle": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
     "Blogs": [
       {
-        "Image": "post1",
+        "Image": "https://res.cloudinary.com/dsduwgwcd/image/upload/v1645459403/simplt-react-site/post-1.jpg",
         "Tag": "Travel",
         "Author": "Morgan Freeman",
         "ReadTime": "10",
@@ -161,7 +161,7 @@
         "Brief": "Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi."
       },
       {
-        "Image": "post2",
+        "Image": "https://res.cloudinary.com/dsduwgwcd/image/upload/v1645459403/simplt-react-site/post-2.jpg",
         "Tag": "Travel",
         "Author": "Morgan Freeman",
         "ReadTime": "10",
@@ -169,7 +169,7 @@
         "Brief": "Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi."
       },
       {
-        "Image": "post3",
+        "Image": "https://res.cloudinary.com/dsduwgwcd/image/upload/v1645459403/simplt-react-site/post-3.jpg",
         "Tag": "Travel",
         "Author": "Morgan Freeman",
         "ReadTime": "10",
